@@ -1,1 +1,40 @@
 <!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>My form page</title>
+	</head>
+<body>
+	<form novalidate>
+		<section>
+			<p>
+				<label for="firstname">
+					<span>FIRST NAME</span>
+				<input type="text" id="firstname" name="firstname" />
+				<label for="lastname">
+					<span>LAST NAME</span>
+				<input type="text" id="lastname" name="lastname" />
+			</p>
+			<p>
+				<label for="email">
+					<span>EMAIL</span>
+				<input type="email" id="email" name="email" />
+				<label for="phone">
+					<span>PHONE NUMBER</span>
+				<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+			</p>
+			<p>
+				<label for="pwd1">
+					<span>PASSWORD</span>
+				<input type="password" id="pwd1" name="pwd1" />
+				<label for="pwd2">
+					<span>CONFIRM PASSWORD</span>
+				<input type="password" id="pwd2" name="pwd2" />
+			</p>
+
+		</section>
+	</form>
+
+</body>
+
+</html>
